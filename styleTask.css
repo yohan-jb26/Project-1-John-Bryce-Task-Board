@@ -1,0 +1,54 @@
+body{
+  background-image: url(tile.jpg);
+  height : 100%;
+  width : 100%;
+  margin : 0;
+  padding : 0;
+}
+
+#title{
+    text-align: center;
+    position : relative;
+    margin : 0 auto;
+    margin-top: 5%;
+    font-size: 80px;
+    font-family: "Pacifico", "Arial", serif;
+}
+
+#taskContainer{
+  background-image: url(formbg.jpg);
+  width: 300px;
+}
+
+#taskContainer input {
+    border: none;
+    color: rgb(73, 15, 231);
+    font-weight: 80;
+    position: relative;
+    margin-left: 20px;
+  }
+
+  #taskContainer label {
+    font-weight: bold;
+  }
+
+.dateTime{
+    position: relative;
+}
+
+
+/* //////////////////////////////////  BUTTONS //////////////////////////////////*/
+
+.button  > .container > .button{
+display: inline-block;
+}
+
+
+
+
+
+/* //////////////////////////////////  POST iT //////////////////////////////////*/
+#post-it{
+  background-image: url(post-it.png) no-repeat;
+}
+
